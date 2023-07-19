@@ -139,7 +139,7 @@ nav{
 }
 .item1{
     padding: 10px 10px;
-    background: rgba(183, 189, 236, 0.603);
+    background: rgba(252, 1, 210, 0.24);
     box-shadow: 2px 2px 2px black;
     /* border: 2px solid black; */
     border-radius: 10px;
@@ -147,7 +147,7 @@ nav{
 }
 .item2{
     padding: 10px 10px;
-    background: rgba(183, 189, 236, 0.603);
+    background: rgba(252, 1, 210, 0.24);
     box-shadow: 2px 2px 2px black;
     /* border: 2px solid black; */
     border-radius: 10px;
@@ -155,7 +155,7 @@ nav{
 }
 .item3{
     padding: 10px 10px;
-    background: rgba(183, 189, 236, 0.603);
+    background: rgba(252, 1, 210, 0.24);
     box-shadow: 2px 2px 2px black;
     /* border: 2px solid black; */
     border-radius: 10px;
@@ -163,7 +163,7 @@ nav{
 }
 .item4{
     padding: 10px 10px;
-    background: rgba(183, 189, 236, 0.603);
+    background: rgba(252, 1, 210, 0.24);
     box-shadow: 2px 2px 2px black;
     /* border: 2px solid black; */
     border-radius: 10px;
@@ -227,4 +227,76 @@ footer{
     color: white;
     border: none;
     font-size: 12px;
+}
+.game-btns{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5% 10%;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.game-icon{
+    border: none;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    background:rgba(252, 1, 210, 0.24);
+    border-radius: 40px;
+    padding: 5px;
+    box-shadow: 2px 2px 2px;
+}
+.main-ti{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2% 10%;
+    gap: 100px
+}
+.mainImage{
+    width: 80%;
+}
+.mainText{
+    width: 50%;
+    margin: 100px;
+    text-align: right;
+}
+.main-titlei{
+    font-size: 2em;
+    padding-bottom: 10px;
+}
+#C{
+    color: #F948B2;
+}
+.main-desci{
+    /* text-align: justify; */
+}
+#f1{
+    position: absolute;
+    left: 47%;
+    bottom: -210%;
+}
+.main-ti2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10% 10%;
+    gap: 100px
+}
+.main-titlei2{
+    font-size: 2em;
+    padding-bottom: 10px;
+}
+.mainText2{
+    width: 70%;
+    margin: 100px;
+    text-align: left;
+}
+#f2{
+    position: absolute;
+    right: 45%;
+    bottom: -290%;
+}
+.main-desci2{
+    text-align: justify;
 }
