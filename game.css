@@ -33,7 +33,14 @@ nav{
     align-items: center;
     /* padding: 50px; */
     padding: 2% 10%;
-    position: sticky;
+    position: fixed;
+    background-size: cover;
+    width: 80%;
+    background-color: transparent;
+    background: #ff42a442;
+    box-shadow: 2px 2px 5px;
+    /* -webkit-backdrop-filter: blur(50px); */
+    
 }
 .btn-f{
     display: flex;
@@ -45,10 +52,15 @@ nav{
     background: rgba(11, 2, 35, 0.10);
     justify-content: center;
 }
+.btn-f:hover{
+    cursor: pointer;
+    background: #4EC5F7;
+    padding: 4px;
+}
 .header-items{
     display: flex;
     justify-content: space-between;
-    padding: 2% 10%;
+    padding: 6% 10%;
     align-items: center;
 
 }
@@ -80,6 +92,11 @@ nav{
     color: white;
     
 }
+.btn-h1:hover{
+    cursor: pointer;
+    background: #4EC5F7;
+    padding: 9px;
+}
 .btn-h2{
     padding: 10px 15px;
     background: #4EC5F7;
@@ -87,6 +104,11 @@ nav{
     border-radius: 20px;
     color: white;
     
+}
+.btn-h2:hover{
+    cursor: pointer;
+    background: #F948B2;
+    padding: 9px;
 }
 .btn{
     padding: 15px 0px;
@@ -161,6 +183,23 @@ nav{
     border-radius: 10px;
     margin: 5px;
 }
+.item1:hover{
+    cursor: pointer;
+    
+    
+}
+.item2:hover{
+    cursor: pointer;
+    
+}
+.item3:hover{
+    cursor: pointer;
+    
+}
+.item4:hover{
+    cursor: pointer;
+    
+}
 .item4{
     padding: 10px 10px;
     background: rgba(252, 1, 210, 0.24);
@@ -196,6 +235,10 @@ footer{
     background: transparent;
     border: none;
 }
+.end-btn:hover{
+    cursor: pointer;
+    color: #F948B2;
+}
 .logo-btn{
     display: flex;
     justify-content: center;
@@ -206,6 +249,13 @@ footer{
     background: transparent;
     border: none;
     
+}
+.icon:hover{
+    cursor: pointer;
+    /* background: #F948B2; */
+    border: 2px solid #FF42A5;
+    border-radius: 10px;
+    padding: 5px;
 }
 .copy{
     color: white;
@@ -228,6 +278,10 @@ footer{
     border: none;
     font-size: 12px;
 }
+.trms-i:hover{
+    cursor: pointer;
+    color: #F948B2;
+}
 .game-btns{
     display: flex;
     flex-wrap: wrap;
@@ -245,6 +299,11 @@ footer{
     border-radius: 40px;
     padding: 5px;
     box-shadow: 2px 2px 2px;
+}
+.game-icon:hover{
+    cursor: pointer;
+    background: #4EC5F7;
+    padding: 3px;
 }
 .main-ti{
     display: flex;
@@ -340,4 +399,10 @@ footer{
     border: none;
     border-radius: 20px;
     color: #FF42A5;
+}
+.last-btn:hover{
+    cursor: pointer;
+    background: #4EC5F7;
+    padding: 9px;
+    color: white;
 }
