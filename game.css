@@ -186,20 +186,21 @@ nav{
 
 .item1:hover{
     cursor: pointer;
+    border: 2px solid #FF42A5;
     
     
 }
 .item2:hover{
     cursor: pointer;
-    
+    border: 2px solid #FF42A5;
 }
 .item3:hover{
     cursor: pointer;
-    
+    border: 2px solid #FF42A5;
 }
 .item4:hover{
     cursor: pointer;
-    
+    border: 2px solid #FF42A5;
 }
 .item4{
     padding: 10px 10px;
@@ -410,7 +411,7 @@ footer{
 
 
 /* small device */
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 576px){
     nav{
         flex-direction: column;
         padding: 2% 2%;
@@ -537,6 +538,7 @@ footer{
     .trms{
         gap: 10px;
         padding: 10px 20px;
+        padding-bottom: 20px;
     }
     #f1{
         bottom: -3460px;
@@ -554,17 +556,13 @@ footer{
     
 }
 
-
-
-
-/* medium device */ 
-
-
 @media screen and (min-width: 576px) and (max-width: 992px) {
-    .header-text2{
-        
+    .main-items{
+        grid-template-columns: repeat(2, 1fr);
     }
-    .header-img2{
-        width: 500px;
-    }
+    
 }
+
+
+
+
