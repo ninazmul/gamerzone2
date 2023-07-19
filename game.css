@@ -183,6 +183,7 @@ nav{
     border-radius: 10px;
     margin: 5px;
 }
+
 .item1:hover{
     cursor: pointer;
     
@@ -405,4 +406,165 @@ footer{
     background: #4EC5F7;
     padding: 9px;
     color: white;
+}
+
+
+/* small device */
+@media screen and (max-width: 576px) {
+    nav{
+        flex-direction: column;
+        padding: 2% 2%;
+        width: 100%;
+        background-size: none;
+        /* background: none; */
+        /* justify-content: space-between; */
+    }
+    .menus{
+        justify-content: space-between;
+        gap: 10px;
+    }
+    .header-items{
+        flex-direction: column-reverse;
+        padding: 20% 1% 0% 1%;
+    }
+    .header-t{
+        text-align: justify;
+        width: 235px;
+        padding: 10% 2%;
+    }
+    .header-img{
+        width: 90%;
+    }
+    .btn{
+        display: flex;
+        justify-content: space-between;
+    }
+    .header-items2{
+        flex-direction: column;
+        padding: 2%;
+    }
+    .header-text2{
+        text-align: center;
+        padding: 2% 0%;
+        /* width: 100%; */
+    }
+    .main-title{
+        font-size: 1.5em;
+    }
+    p{
+        font-size: 12px;
+        text-align: center;
+        padding: 0% 2%;
+    }
+    .main-items{
+        grid-template-columns: repeat(1, 1fr);
+        padding: 2%;
+    }
+    .main-ti{
+        flex-direction: column;
+        gap: auto;
+        padding: 2% 0%;
+    }
+    .mainText{
+        text-align: center;
+        /* width: 100%; */
+        padding: 2% 0%;
+        /* margin: auto; */
+        margin: 0px;
+        width: 100%;
+        gap: none;
+    }
+    .mainImage{
+        width: 70%;
+        padding: 2% 0%;
+        padding-left: 20%;
+    }
+    .main-ti2{
+        flex-direction: column-reverse;
+        gap: auto;
+        padding: 2% 0%;
+    }
+    .mainText2{
+        text-align: center;
+        /* width: 100%; */
+        padding: 2% 0%;
+        /* margin: auto; */
+        margin: 0%;
+        /* width: 100%; */
+        margin-top: 20px;
+    }
+    .mainImage2{
+        width: 70%;
+        padding: 2% 0%;
+        padding-right: 20%;
+    }
+    .last-main{
+        flex-direction: column;
+        padding: 2% 0%;
+        justify-content: center;
+        margin-top: 60px;
+    }
+    .last-img{
+        width: 90%;
+        padding-left: 10%;
+        /* padding-left: 60px; */
+    }
+    .last-desc-part{
+        font-size: 12px;
+    }
+    .last-m-c{
+        text-align: center;
+    }
+    .header-desc2{
+        width: 320px;
+        
+    }
+    .main-desci2{
+        /* width: 320px; */
+        text-align: center;
+        margin: 0%;
+        padding: 0%;
+    }
+    .main-desci{
+        /* width: 320px; */
+        /* text-align: center; */
+        margin: 0px;
+        padding: 0px;
+    }
+    .btns{
+        flex-wrap: wrap;
+    }
+    .trms{
+        gap: 10px;
+        padding: 10px 20px;
+    }
+    #f1{
+        bottom: -3460px;
+        left: 10px;
+        width: 250px;
+        
+        
+    }
+    #f2{
+        bottom: -4080px;
+        right: 1px;
+        width: 250px;
+       
+        
+    
+}
+
+
+
+
+/* medium device */ 
+
+
+@media screen and (min-width: 576px) and (max-width: 992px) {
+    .header-text2{
+        
+    }
+    .header-img2{
+        width: 500px;
+    }
 }
