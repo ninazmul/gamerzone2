@@ -300,3 +300,44 @@ footer{
 .main-desci2{
     text-align: justify;
 }
+.last-main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* padding: 2% 10%; */
+    background: #FF42A5;
+}
+.last-img{
+    width: 50%;
+    
+}
+.last-m-c{
+    padding: 10%;
+    color: white;
+}
+.last-desc{
+    text-align: justify;
+}
+.last-desc-part{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0px 20px 0px;
+
+}
+.last-title{
+    margin-bottom: 20px;
+}
+.left-last{
+    text-align: left;
+    /* gap: 10px; */
+}
+.right-last{
+    text-align: right;
+}
+.last-btn{
+    padding: 10px 15px;
+    background: white;
+    border: none;
+    border-radius: 20px;
+    color: #FF42A5;
+}
