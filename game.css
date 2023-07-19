@@ -551,6 +551,7 @@ footer{
         bottom: -4080px;
         right: 1px;
         width: 250px;
+    }
        
         
     
@@ -560,7 +561,54 @@ footer{
     .main-items{
         grid-template-columns: repeat(2, 1fr);
     }
-    
+    .header-items{
+        padding-top: 10%;
+    }
+    .header-items2{
+        /* width: 200px; */
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .header-text2{
+        text-align: center;
+        padding: 0%;
+        margin: 0%;
+        /* width: 100%; */
+    }
+    .main-ti{
+        /* flex-direction: column; */
+    }
+    .last-main{
+        flex-direction: column;
+    }
+    .last-img{
+        width: 80%;
+        padding-left: 100px;
+    }
+    .last-m-c{
+        text-align: center;
+    }
+    .last-desc-part{
+        font-size: 12px;
+    }
+    .mainText{
+        width: 100%;
+        margin: 0px;
+    }
+    .mainText2{
+        width: 100%;
+        margin: 0px;
+    }
+    #f1{
+        bottom: -1200px;
+        width: 200px;
+        left: 400px;
+    }
+    #f2{
+        bottom: -1550px;
+        width: 200px;
+        left: 300px;
+    }
 }
 
 
